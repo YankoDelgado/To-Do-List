@@ -8,4 +8,12 @@ Lista de tareas pendientes con autenticación de usuarios, recordatorios y categ
 - Node.js v22.14.0
 - Mysql
 
-## Instalación
+## Instalación React
+- En una carpeta ya creada
+´´´bash
+npm create vite@latest ./
+´´´
+- Creando una carpeta nueva
+´´´bash
+npm create vite@latest nombre del proyecto
+´´´
