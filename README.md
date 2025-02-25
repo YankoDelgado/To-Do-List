@@ -10,10 +10,10 @@ Lista de tareas pendientes con autenticación de usuarios, recordatorios y categ
 
 ## Instalación React
 - En una carpeta ya creada
-´´´bash
+```bash
 npm create vite@latest ./
-´´´
+```
 - Creando una carpeta nueva
-´´´bash
+```bash
 npm create vite@latest nombre del proyecto
-´´´
+```
