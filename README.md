@@ -17,3 +17,7 @@ npm create vite@latest ./
 ```bash
 npm create vite@latest nombre del proyecto
 ```
+- Instalar dependencias
+```bash
+npm install
+```
