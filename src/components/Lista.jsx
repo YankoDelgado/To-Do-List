@@ -29,7 +29,9 @@ const List = () => {
                                 <Button variant="success" type="submit" className="ms-2">Agregar</Button>
                             </Form.Group>
                         </Form>
-
+                        <div className="text-center p-4 bg-white rounded shadow-sm">
+                            <p className="text-muted mb-0">No tienes tareas pendientes</p>
+                        </div>
                     </Col>
                 </Row>
             </Container>
