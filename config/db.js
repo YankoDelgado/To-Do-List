@@ -1,7 +1,9 @@
-import { createPool } from "mysql2"
+import mysql from "mysql2/promise"
+import {config} from "dotenv"
+config()
 
-const pool = createPool({
-    host: process.env.DB_HOST,
+const db = mysql.createPool({
+    host: process.env.DB_HOST || "localhost",
     user: process.env.DB_USER || "root",
     password: process.env.DB_PASSWORD,
     database: process.env.DB_NAME,
@@ -10,5 +12,5 @@ const pool = createPool({
     queueLimit: 0,
 })
 
-export default pool.promise()
+export default db
 
