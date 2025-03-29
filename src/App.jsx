@@ -9,6 +9,8 @@ import "./index.css"
 const AppContent = () =>{
   const {currentUser} = useAuth()
 
+  //console.log("Usuario actual:", currentUser); // Agregado para depuración
+
   return <div className="App">{currentUser ? <List/> : <AuthPage/>}</div>
 }
 
