@@ -6,7 +6,7 @@ Lista de tareas pendientes con autenticación de usuarios, recordatorios y categ
 ## Requerimienos
 - React v19.0.0
 - Node.js v22.14.0
-- Mysql
+- Mysql v9.2.0
 
 ## Instalación React
 - En una carpeta ya creada
