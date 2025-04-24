@@ -21,3 +21,19 @@ npm create vite@latest nombre del proyecto
 ```bash
 npm install
 ```
+
+##Inicio del proyecto
+Para iniciar todo el proyecto primero activamos MySQL y ejecutamos el siguiente comando para crear la base de datos junto a las tablas.
+```bash
+node init-db.js
+```
+Luego de eso podemos iniciar el servidor y React.
+
+Iniciar el servidor
+```bash
+node server.js
+```
+Iniciar React
+```bash
+npm run dev
+```
