@@ -22,7 +22,7 @@ npm create vite@latest nombre del proyecto
 npm install
 ```
 
-##Inicio del proyecto
+## Inicio del proyecto
 Para iniciar todo el proyecto primero activamos MySQL y ejecutamos el siguiente comando para crear la base de datos junto a las tablas.
 ```bash
 node init-db.js
